@@ -2,7 +2,7 @@
 
 ## Descripción del proyecto
 
-**Food Store** es una aplicación web de ecommerce desarrollada como trabajo práctico para la materia **Programación III** de la carrera **Técnico Superior en Programación** de la **Universidad Tecnológica Nacional (UTN)**.
+**Food Store** es una aplicación web de ecommerce desarrollada como trabajo práctico para la materia **Programación III** de la carrera **Técnico Universitario en Programación** de la **Universidad Tecnológica Nacional (UTN)**.
 
 El proyecto consiste en una tienda online simple orientada a la gestión de productos alimenticios, permitiendo a los usuarios visualizar productos, filtrarlos por categoría, realizar búsquedas, agregarlos al carrito de compras y gestionar cantidades de productos seleccionados.
 
