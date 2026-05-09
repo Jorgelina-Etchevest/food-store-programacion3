@@ -30,6 +30,7 @@ Además, el sistema implementa persistencia de datos mediante **Local Storage**,
 
 ## Estructura del proyecto
 
+```plaintext
 src/
 │── data/
 │   └── data.ts
@@ -49,6 +50,7 @@ src/
 │           ├── cart.html
 │           ├── cart.css
 │           └── cart.ts
+```
 
 ## Instrucciones para ejecutar el proyecto
 
