@@ -85,4 +85,4 @@ http://localhost:5173
 ## Autor
 
 **Jorgelina Etchevest**
-Trabajo práctico desarrollado para **Programación III – Técnico Superior en Programación – UTN**.
+Trabajo práctico desarrollado para **Programación III – Técnicatura Universitaria en Programación – UTN**.
