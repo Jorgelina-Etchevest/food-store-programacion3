@@ -1,88 +1,159 @@
-# 🍔 Food Store - Programación III
+![Food Store Banner](docs/banner.png)
 
-## Descripción del proyecto
+# Food Store
 
-**Food Store** es una aplicación web de ecommerce desarrollada como trabajo práctico para la materia **Programación III** de la carrera **Técnico Universitario en Programación** de la **Universidad Tecnológica Nacional (UTN)**.
+Responsive Ecommerce Web Application built with TypeScript, Vite, HTML5, CSS3 and Local Storage.
 
-El proyecto consiste en una tienda online simple orientada a la gestión de productos alimenticios, permitiendo a los usuarios visualizar productos, filtrarlos por categoría, realizar búsquedas, agregarlos al carrito de compras y gestionar cantidades de productos seleccionados.
+---
 
-Además, el sistema implementa persistencia de datos mediante **Local Storage**, permitiendo conservar el contenido del carrito incluso si el usuario recarga o cierra la página.
+## Overview
 
-## Funcionalidades principales
+Food Store is a responsive ecommerce web application that simulates the core functionality of an online grocery store.
 
-* Visualización dinámica de productos.
-* Filtrado por categorías.
-* Búsqueda de productos por nombre, descripción o categoría.
-* Agregado de productos al carrito.
-* Incremento y disminución de cantidades dentro del carrito.
-* Eliminación de productos.
-* Cálculo automático del total de compra.
-* Persistencia de datos utilizando **Local Storage**.
-* Navegación entre catálogo y carrito.
+The application allows users to browse products, filter items by category, perform keyword searches, manage a shopping cart and persist purchase information using Local Storage.
 
-## Tecnologías utilizadas
+Originally developed as an academic project for the Programming III course at the National Technological University (UTN), this repository was later refactored, documented and improved as part of my professional software development portfolio.
 
-* **HTML5** para la estructura de la aplicación.
-* **CSS3** para el diseño y estilos visuales.
-* **TypeScript** para la lógica del sistema y tipado.
-* **Local Storage** en la persistencia de datos del carrito.
-* **Vite** para el entorno de desarrollo y ejecución.
+---
 
-## Estructura del proyecto
+## Live Demo
 
-```plaintext
+Coming soon.
+
+---
+
+## Key Features
+
+- Dynamic product catalog
+- Product search by keyword
+- Category filtering
+- Shopping cart management
+- Quantity update and item removal
+- Automatic purchase total calculation
+- Persistent shopping cart using Local Storage
+- Responsive user interface
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| HTML5 | Structure |
+| CSS3 | Styling |
+| TypeScript | Application Logic |
+| Vite | Development Environment |
+| Local Storage | Client-side Persistence |
+
+---
+
+## Screenshots
+
+### Home
+
+![Home](docs/screenshots/home.png)
+
+---
+
+### Category Filter
+
+![Category Filter](docs/screenshots/filter.png)
+
+---
+
+### Product Search
+
+![Search](docs/screenshots/search.png)
+
+---
+
+### Shopping Cart
+
+![Shopping Cart](docs/screenshots/cart.png)
+
+---
+
+## Project Structure
+
+```text
 src/
-│── data/
-│   └── data.ts
 │
-│── types/
-│   ├── product.ts
-│   └── categoria.ts
+├── data/
 │
-│── pages/
-│   └── store/
-│       ├── home/
-│       │   ├── home.html
-│       │   ├── home.css
-│       │   └── home.ts
-│       │
-│       └── cart/
-│           ├── cart.html
-│           ├── cart.css
-│           └── cart.ts
+├── types/
+│
+├── pages/
+│   ├── home/
+│   ├── cart/
+│   └── login/
+│
+public/
+│
+docs/
+└── screenshots/
 ```
 
-## Instrucciones para ejecutar el proyecto
+---
 
-### 1. Clonar el repositorio
+## Installation
 
-Abrir una terminal y ejecutar:
+Clone the repository
 
-git clone URL_DEL_REPOSITORIO
+```bash
+git clone https://github.com/Jorgelina-Etchevest/food-store-programacion3.git
+```
 
-### 2. Ingresar a la carpeta del proyecto
+Install dependencies
 
-cd nombre-del-proyecto
-
-### 3. Instalar dependencias
-
-Ejecutar:
-
+```bash
 npm install
+```
 
-### 4. Iniciar el servidor de desarrollo
+Run the development server
 
-Ejecutar:
-
+```bash
 npm run dev
+```
 
-### 5. Abrir el proyecto en el navegador
+Open
 
-Una vez iniciado el servidor, abrir la URL generada por Vite, generalmente:
-
+```
 http://localhost:5173
+```
 
-## Autor
+---
+
+## Skills Demonstrated
+
+- Frontend Development
+- TypeScript
+- Responsive Web Design
+- DOM Manipulation
+- State Management
+- Local Storage
+- Modular Project Structure
+- User Interface Development
+
+---
+
+## Future Improvements
+
+- User authentication
+- Product detail page
+- Checkout process
+- Backend integration
+- Database persistence
+- Payment gateway integration
+
+---
+
+## Author
 
 **Jorgelina Etchevest**
-Trabajo práctico desarrollado para **Programación III – Técnicatura Universitaria en Programación – UTN**.
+Economist | Data Analytics | Business Intelligence
+
+
+---
+
+## License
+This project is licensed under the MIT License.
