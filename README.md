@@ -1,24 +1,24 @@
 ![Food Store Banner](docs/banner.png)
 
-# Food Store
+# Food Store – Responsive Ecommerce Web Application
 
-Responsive Ecommerce Web Application built with TypeScript, Vite, HTML5, CSS3 and Local Storage.
+A responsive ecommerce web application built with **TypeScript**, **Vite**, **HTML5**, **CSS3**, and **Local Storage**.
 
 ---
 
 ## Overview
 
-Food Store is a responsive ecommerce web application that simulates the core functionality of an online grocery store.
+Food Store is a frontend ecommerce application that simulates the shopping experience of an online grocery store.
 
-The application allows users to browse products, filter items by category, perform keyword searches, manage a shopping cart and persist purchase information using Local Storage.
+The project demonstrates essential frontend development concepts, including dynamic product rendering, category filtering, keyword search, shopping cart management, and client-side persistence using Local Storage.
 
-Originally developed as an academic project for the Programming III course at the National Technological University (UTN), this repository was later refactored, documented and improved as part of my professional software development portfolio.
+Originally developed as an academic project for the Programming III course at the National Technological University (UTN), the application was later refactored, documented, and enhanced as part of my professional software development portfolio.
 
 ---
 
 ## Live Demo
 
-Coming soon.
+https://foodstore-jorgelina.netlify.app/src/pages/store/home/home
 
 ---
 
@@ -28,7 +28,8 @@ Coming soon.
 - Product search by keyword
 - Category filtering
 - Shopping cart management
-- Quantity update and item removal
+- Product quantity update
+- Item removal from cart
 - Automatic purchase total calculation
 - Persistent shopping cart using Local Storage
 - Responsive user interface
@@ -39,11 +40,11 @@ Coming soon.
 
 | Technology | Purpose |
 |------------|----------|
-| HTML5 | Structure |
-| CSS3 | Styling |
-| TypeScript | Application Logic |
-| Vite | Development Environment |
-| Local Storage | Client-side Persistence |
+| HTML5 | Application structure |
+| CSS3 | Styling and responsive layout |
+| TypeScript | Business logic |
+| Vite | Development environment and bundler |
+| Local Storage | Client-side data persistence |
 
 ---
 
@@ -63,7 +64,7 @@ Coming soon.
 
 ### Product Search
 
-![Search](docs/screenshots/search.png)
+![Product Search](docs/screenshots/search.png)
 
 ---
 
@@ -83,14 +84,24 @@ src/
 ├── types/
 │
 ├── pages/
-│   ├── home/
-│   ├── cart/
-│   └── login/
+│   ├── auth/
+│   │   └── login/
+│   │
+│   └── store/
+│       ├── home/
+│       └── cart/
+│
+├── assets/
 │
 public/
 │
 docs/
+├── banner.png
 └── screenshots/
+    ├── home.png
+    ├── filter.png
+    ├── search.png
+    └── cart.png
 ```
 
 ---
@@ -115,9 +126,9 @@ Run the development server
 npm run dev
 ```
 
-Open
+Open your browser at
 
-```
+```text
 http://localhost:5173
 ```
 
@@ -131,7 +142,7 @@ http://localhost:5173
 - DOM Manipulation
 - State Management
 - Local Storage
-- Modular Project Structure
+- Modular Project Organization
 - User Interface Development
 
 ---
@@ -147,13 +158,13 @@ http://localhost:5173
 
 ---
 
-## Author
+## About the Author
 
 **Jorgelina Etchevest**
+
 Economist | Data Analytics | Business Intelligence
 
 
----
-
 ## License
+
 This project is licensed under the MIT License.
