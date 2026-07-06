@@ -1,24 +1,39 @@
 ![Food Store Banner](docs/banner.png)
 
-# Food Store – Responsive Ecommerce Web Application
+# Food Store
 
-A responsive ecommerce web application built with **TypeScript**, **Vite**, **HTML5**, **CSS3**, and **Local Storage**.
+Responsive Ecommerce Web Application built with **TypeScript**, **Vite**, **HTML5**, **CSS3**, and **Local Storage**.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ---
 
 ## Overview
 
-Food Store is a frontend ecommerce application that simulates the shopping experience of an online grocery store.
+Food Store is a responsive ecommerce web application that simulates the shopping experience of an online grocery store.
 
-The project demonstrates essential frontend development concepts, including dynamic product rendering, category filtering, keyword search, shopping cart management, and client-side persistence using Local Storage.
+The project focuses on frontend development, responsive design, modular architecture, and client-side state management using TypeScript and Local Storage.
 
-Originally developed as an academic project for the Programming III course at the National Technological University (UTN), the application was later refactored, documented, and enhanced as part of my professional software development portfolio.
+Originally developed as an academic project for the **Programming III** course at the **National Technological University (UTN)**, the application was later refactored, documented, and enhanced as part of my professional software development portfolio.
 
 ---
 
 ## Live Demo
 
+**Open the application**
+
 https://foodstore-jorgelina.netlify.app/src/pages/store/home/home
+
+---
+
+## Why this project?
+
+This project was developed to strengthen my frontend development skills while applying software engineering best practices such as modular architecture, reusable components, responsive design, and project documentation.
+
+Although originally created as an academic assignment, it was later improved and documented to meet professional portfolio standards.
 
 ---
 
@@ -28,7 +43,7 @@ https://foodstore-jorgelina.netlify.app/src/pages/store/home/home
 - Product search by keyword
 - Category filtering
 - Shopping cart management
-- Product quantity update
+- Product quantity updates
 - Item removal from cart
 - Automatic purchase total calculation
 - Persistent shopping cart using Local Storage
@@ -41,8 +56,8 @@ https://foodstore-jorgelina.netlify.app/src/pages/store/home/home
 | Technology | Purpose |
 |------------|----------|
 | HTML5 | Application structure |
-| CSS3 | Styling and responsive layout |
-| TypeScript | Business logic |
+| CSS3 | Responsive layout and styling |
+| TypeScript | Application logic |
 | Vite | Development environment and bundler |
 | Local Storage | Client-side data persistence |
 
@@ -50,27 +65,13 @@ https://foodstore-jorgelina.netlify.app/src/pages/store/home/home
 
 ## Screenshots
 
-### Home
+| Home | Category Filter |
+|------|-----------------|
+| ![](docs/screenshots/home.png) | ![](docs/screenshots/filter.png) |
 
-![Home](docs/screenshots/home.png)
-
----
-
-### Category Filter
-
-![Category Filter](docs/screenshots/filter.png)
-
----
-
-### Product Search
-
-![Product Search](docs/screenshots/search.png)
-
----
-
-### Shopping Cart
-
-![Shopping Cart](docs/screenshots/cart.png)
+| Product Search | Shopping Cart |
+|---------------|---------------|
+| ![](docs/screenshots/search.png) | ![](docs/screenshots/cart.png) |
 
 ---
 
@@ -142,8 +143,10 @@ http://localhost:5173
 - DOM Manipulation
 - State Management
 - Local Storage
-- Modular Project Organization
-- User Interface Development
+- Modular Project Architecture
+- UI Development
+- Project Documentation
+- Git & GitHub
 
 ---
 
@@ -162,9 +165,10 @@ http://localhost:5173
 
 **Jorgelina Etchevest**
 
-Economist | Data Analytics | Business Intelligence
+Economist transitioning into **Data Analytics** and **Business Intelligence**, with experience in software development, data analysis, and business problem solving.
+
 
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
